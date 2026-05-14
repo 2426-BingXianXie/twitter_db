@@ -1,0 +1,11 @@
+jdbc.url=jdbc:mysql://localhost:3306/ds4300_hw1?rewriteBatchedStatements=false&useServerPrepStmts=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
+jdbc.user=root
+jdbc.password=CHANGEME
+
+data.followsCsv=hw1_data/follows.csv
+data.tweetCsv=hw1_data/tweet.csv
+
+bench.tweetLimit=1000000
+bench.timelineIterations=10000
+bench.progressEvery=10000
+bench.logDir=bench-logs
